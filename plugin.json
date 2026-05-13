@@ -1,0 +1,12 @@
+{
+  "id": "dooitPlugin",
+  "name": "Dooit Plugin",
+  "description": "This plugin shows todays task and the oldest five without due date from dooit.",
+  "version": "1.0.0",
+  "author": "MetalCar",
+  "icon": "widgets",
+  "type": "widget",
+  "component": "./DooitPlugin.qml",
+  "settings": "./DooitPluginSettings.qml",
+  "permissions": ["settings_read", "settings_write", "process"]
+}
