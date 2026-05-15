@@ -58,7 +58,7 @@ cp -a DooitPlugin ~/.config/DankMaterialShell/plugins/
 2) Reload plugins:
 
 ```bash
-dms ipc call plugins reload DooitPlugin
+hype ipc call plugins reload DooitPlugin
 ```
 
 Or restart DMS.
@@ -72,7 +72,7 @@ a reliable workflow is to develop in your repo and sync into the DMS plugin fold
 
 ```bash
 rsync -a --delete ./DooitPlugin/ ~/.config/DankMaterialShell/plugins/DooitPlugin/ \
-  && dms ipc call plugins reload DooitPlugin
+  && hype ipc call plugins reload DooitPlugin
 ```
 
 ---
